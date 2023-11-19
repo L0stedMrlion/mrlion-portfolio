@@ -1,7 +1,7 @@
 :root {
   --text-color: #ffffffe1;
   --link-color: #ffa602e8;
-  --background-color: #030303dc;
+  --background-color: #232323;
 }
 
 * {
@@ -89,7 +89,7 @@ nav .right a span {
   border-radius: 5px;
   margin-right: 10px;
   margin-bottom: 10px;
-  transition: .1s;
+  transition: 0.1s;
 }
 
 .hero-section .text .links a:hover {
@@ -232,11 +232,11 @@ nav .right a span {
   border: none;
   height: 50px;
   cursor: pointer;
-  transition: .1s;
+  transition: 0.1s;
 }
 
 .contact-section .group form button:hover {
-  filter: brightness(.9);
+  filter: brightness(0.9);
 }
 
 @media (max-width: 850px) {
